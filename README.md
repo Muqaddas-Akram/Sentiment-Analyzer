@@ -6,3 +6,7 @@ Analyzes sentiment from input text and generates a word cloud.
 1. Install dependencies:
    ```bash
    pip install -r requirements.txt
+   2. Run CLI Poject:
+   ```bash
+   python main.py
+   ```
