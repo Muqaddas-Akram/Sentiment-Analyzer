@@ -12,7 +12,7 @@ def main():
         text = input("Enter your text: ")
     elif choice == "2":
         try:
-            with open("data/input_text.txt", "r") as file:
+            with open("../data/input_text.txt", "r") as file:
                 text = file.read()
         except FileNotFoundError:
             print("Error: File not found!")
